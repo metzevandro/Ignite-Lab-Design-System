@@ -9,7 +9,7 @@ jobs:
   build-and-depoly:
     runs-on: ubuntu-latest
 
-    stpes:
+    steps:
       - name: Checkout
         uses: actions/checkout@v3
 
