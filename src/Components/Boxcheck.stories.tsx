@@ -1,12 +1,12 @@
 import { Meta, StoryObj } from '@storybook/react'
 
-import { CheckBox, CheckBoxProps } from './CheckBox'
+import { Boxcheck, BoxcheckProps } from './Boxcheck'
 
 import { Text } from './Text'
 
 export default {
-    title: 'Components/CheckBox',
-    component: CheckBox,
+    title: 'Components/Boxcheck',
+    component: Boxcheck,
     args: {},
     argTypes: {},
     decorators: [
@@ -19,6 +19,6 @@ export default {
             )
         }
     ]
-} as Meta<CheckBoxProps>
+} as Meta<BoxcheckProps>
 
-export const Default: StoryObj<CheckBoxProps> = {}
+export const Default: StoryObj<BoxcheckProps> = {}
